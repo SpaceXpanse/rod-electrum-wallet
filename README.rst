@@ -1,4 +1,4 @@
-Electrum-CHI - Lightweight Xaya client
+ROD Electrum wallet - Lightweight client
 =====================================
 
 ::
@@ -26,7 +26,7 @@ Electrum-CHI - Lightweight Xaya client
 Getting started
 ===============
 
-Electrum-CHI itself is pure Python, and so are most of the required dependencies,
+ROD Electrum wallet itself is pure Python, and so are most of the required dependencies,
 but not everything. The following sections describe how to run from source, but here
 is a TL;DR::
 
@@ -70,7 +70,7 @@ Running from tar.gz
 If you downloaded the official package (tar.gz), you can run
 Electrum-CHI from its root directory without installing it on your
 system; all the pure python dependencies are included in the 'packages'
-directory. To run Electrum-CHI from its root directory, just do::
+directory. To run ROD Electrum wallet from its root directory, just do::
 
     ./run_electrum_chi
 
@@ -80,7 +80,7 @@ You can also install Electrum-CHI on your system, by running this command::
     python3 -m pip install --user .
 
 This will download and install the Python dependencies used by
-Electrum-CHI instead of using the 'packages' directory.
+ROD Electrum wallet instead of using the 'packages' directory.
 It will also place an executable named :code:`electrum-chi` in :code:`~/.local/bin`,
 so make sure that is on your :code:`PATH` variable.
 
@@ -90,8 +90,8 @@ Development version (git clone)
 
 Check out the code from GitHub::
 
-    git clone git://github.com/xaya/electrum-chi.git
-    cd electrum-chi
+    git clone git://github.com/SpaceXpanse/rod-electrum-wallet.git
+    cd rod-electrum-wallet
     git submodule update --init
 
 Run install (this should install dependencies)::
