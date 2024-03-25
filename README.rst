@@ -1,4 +1,4 @@
-ROD Electrum wallet - Lightweight client
+ROD Electrum wallet - Lightweight client   
 =====================================
 
 ::
